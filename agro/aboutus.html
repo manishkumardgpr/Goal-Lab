@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Agrizens Ventures</title>
+	<!-- this demo page style -->	
+	<style type="text/css">
+		html { background: #000; }
+		
+		.newsupdate-slide-back {
+			background:rgba(0,0,0,0.45);
+			border-bottom: 1px solid #fff;
+			border-top: 1px solid rgba(0,0,0,0);
+		}
+		.updates_item_back {
+			background:rgba(0,19,255,0.45);
+			background-color: #003300;
+			border-bottom: 1px solid #fff;
+			border-top: 1px solid rgba(0,0,0,0);
+		}
+		.contacts_item_back {
+			background:rgba(0,0,0,0.45);
+			border-bottom: 1px solid #fff;
+			border-top: 1px solid rgba(0,0,0,0);
+		}
+		.content_intro_back {
+			background:rgba(0,0,0,0.45);
+			width:800px;
+			height:250px;
+			border-radius:8px;
+			
+		}
+	</style>
+	
+	<style type="text/css" data-reactid=".0.0.$s7">
+.s7screenWidthBackground {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.s7[data-state~="mobileView"] {
+	position: absolute !important;
+}
+
+.s7[data-state~="fixedPosition"] {
+	position: fixed !important;
+	left: auto !important;
+	z-index: 50;
+}
+
+.s7[data-state~="fixedPosition"].s7_footer {
+	top: auto;
+	bottom: 0;
+}
+
+.s7_bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	border-top: 0px solid rgba(34, 27, 35, 1);
+	border-bottom: 0px solid rgba(34, 27, 35, 1);
+}
+
+.s7[data-state~="mobileView"] .s7bg {
+	left: 10px;
+	right: 10px;
+}
+
+.s7bg {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	bottom: 0px;
+	left: 0;
+	background-color: rgba(255, 200, 2, 1);
+	border-radius: 0;
+}
+
+.s7inlineContent {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.s7centeredContent {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.font_9 {
+	font: normal normal normal 13px/1.3em Arial, 'ｍｓ ｐゴシック', 'ms pgothic',
+		'돋움', dotum, helvetica, sans-serif;
+	color: #221B23;
+}
+
+.propic {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	
+}
+td.galleryImg {
+	position: relative;
+	padding: 10px;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius:50%;
+  margin:5px;
+  background: rgba(0,0,0,0.50);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+.galleryImg:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+</style>
+
+
+	
+	<!-- start: INCLUDES -->
+	<link type="text/css" href="jQuery%20Infinite%20Sliding%20Menu%20pluginpanel_files/slashc.css" rel="stylesheet">
+	<link type="text/css" href="jQuery%20Infinite%20Sliding%20Menu%20pluginpanel_files/pop up.css" rel="stylesheet">
+	<script type="text/javascript" src="jQuery%20Infinite%20Sliding%20Menu%20pluginpanel_files/jquery-1.js"></script>
+	<script type="text/javascript" src="jQuery%20Infinite%20Sliding%20Menu%20pluginpanel_files/jquery.js"></script>
+	<script type="text/javascript" src="jQuery%20Infinite%20Sliding%20Menu%20pluginpanel_files/jquery_002.js"></script>
+	<!-- end: INCLUDES -->
+	<!-- Image Slider HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End Image Slider HEAD section -->
+
+</head>
+<body>
+	
+	<div class="setBgImage"> 
+    <div id="overlayDiv" style="background: rgba(255, 255, 255,0.75); width:100%;height:7%;border-bottom: 3px solid #009200">
+		   <img data-u="image" src="img/logo.png" style="width:25%;height:100%;padding-left:38%" />
+	
+	</div> 
+	<br />
+	<!-- start: SLIDING MENU -->
+	<div id="leftPanel" class="slashc-sliding-menu" style="background: rgba(0, 0, 0, 0.45);">		
+	
+		
+		<h1  ><span >Agrizens Ventures</span>
+			
+			<a title="Slide Back Home" href="#" class="slashc-sliding-menu-home">Slide Back Home</a>
+		</h1>
+		
+		<ul style="height: 400px; left: 0px; "  >
+			<li><a href="home.html" style="border-bottom: 1px solid #fff"><span><img src="img/home-small.png" style="padding-right:2%" />Home</span></a>
+			<!--	<ul style="left: 280px; top: 0px; display: block;">
+					<li><a href="#"><span>Go Deeper</span></a>
+						<ul style="left: 280px; top: 0px; display: none;">
+							<li><a href="#"><span>..and Deeper</span></a>
+								<ul style="left: 280px; top: 0px; display: none;">
+									<li><a href="#"><span>..you get the idea</span></a>
+										<ul style="left: 280px; top: 0px; display: none;">
+											<li><a href="http://codecanyon.net/">Navigation</a></li>
+											<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+											<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+											<li><a href="http://codecanyon.net/">Database Abstractions</a></li>
+											<li><a href="http://codecanyon.net/">Images and Media</a></li>
+											<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+											<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+										</ul>
+									</li>
+									<li><a href="http://codecanyon.net/">Database Abstractions</a></li>
+									<li><a href="http://codecanyon.net/">Images and Media</a></li>
+									<li><a href="http://codecanyon.net/">Loaders and Uploaders</a></li>
+									<li><a href="http://codecanyon.net/">Navigation</a></li>
+									<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+									<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+									<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+								</ul>
+							</li>
+							<li><a href="http://codecanyon.net/">Loaders and Uploaders</a></li>
+							<li><a href="http://codecanyon.net/">Navigation</a></li>
+							<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+							<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+							<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+						</ul>
+					</li>
+					<li><a href="http://codecanyon.net/">Database Abstractions</a></li>
+					<li><a href="http://codecanyon.net/">Images and Media</a></li>
+					<li><a href="http://codecanyon.net/">Loaders and Uploaders</a></li>
+					<li><a href="http://codecanyon.net/">Navigation</a></li>
+					<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+					<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+					<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+				</ul> -->
+				
+			</li>
+			
+			<li><a href="#" style="border-bottom: 1px solid #fff"><span><img src="img/leaf-16.png" style="padding-right:2%" />About Us</span></a>
+				<!--<ul style="left: 280px; top: -50px; display: none;">
+					<li><a href="http://codecanyon.net/">Miscellaneous</a></li>
+					<li><a href="http://codecanyon.net/">Social Networking</a></li>
+					<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+					<li><a href="http://codecanyon.net/">Loaders and Uploaders</a></li>
+					<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+				</ul> -->
+			
+			</li>
+			
+			<li><a href="#" style="border-bottom: 1px solid #fff"><span><img src="img/services-16.png" style="padding-right:2%" />Services<img src="img/arrow-right.png" style=" padding-left:57%" /></span></a>
+				<ul style="left: 280px; top: -100px; display: none;">
+					<li><a href="http://codecanyon.net/">Loaders and Uploaders</a></li>
+					<li><a href="http://codecanyon.net/">Navigation</a></li>
+					<li><a href="http://codecanyon.net/">Project Management Tools</a></li>
+					<li><a href="http://codecanyon.net/">Ratings and Charts</a></li>
+					<li><a href="http://codecanyon.net/">Database Abstractions</a></li>
+					<li><a href="http://codecanyon.net/">Images and Media</a></li>
+					<li><a href="http://codecanyon.net/">Shopping Carts</a></li>
+				</ul>
+			
+			</li>
+			
+			<li><a href="#" style="border-bottom: 0.5px"><span><img src="img/contacts-16.png" style="padding-right:2%" />Contact Us<img src="img/arrow-right.png" style=" padding-left:50%" /></span></a>
+				<ul style="left: 280px; top: -150px; display: none;">
+					<li><a href="http://codecanyon.net/">Magento Extensions</a></li>
+					<li><a href="#"><span>WordPress</span></a>
+						<ul style="left: 280px; top: -50px; display: none;">
+							<li><a href="http://codecanyon.net/">Contact Forms</a></li>
+							<li><a href="http://codecanyon.net/">Sliders</a></li>
+							<li><a href="http://codecanyon.net/">Galleries</a></li>
+							<li><a href="http://codecanyon.net/">e-Commerce</a></li>
+							<li><a href="http://codecanyon.net/">SEO</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span>ExpressionEngine</span></a>
+						<ul style="left: 280px; top: -100px; display: none;">
+							<li><a href="http://codecanyon.net/">CAPTCHA</a></li>
+							<li><a href="http://codecanyon.net/">Custom Data</a></li>
+							<li><a href="http://codecanyon.net/">WYSIWYG</a></li>
+							<li><a href="http://codecanyon.net/">Miscellaneous</a></li>
+						</ul>
+					</li>
+				</ul>
+				
+			</li>
+		</ul>
+		<p><span>Select an item...</span> <a title="Go Back" href="#" class="slashc-sliding-menu-back" style="padding-bottom:20%">Go Back</a></p>
+	</div>
+	<!-- end: SLIDING MENU -->
+</div>
+
+<!-- content panel starts-->
+ <div style="height: 630px;width:1070px; left:19.2%;top:10%;background:rgba(0, 0, 0, 0.45);z-index:99;position: absolute;padding-bottom: 8px;" align="center"><div style="padding-left:25px; padding-right:25px;">
+<pre style="color:white;font-family:Tahoma;font-size:16px"> <b><u>About Agrizens Ventures</u></b></pre>
+		
+		<p style="color:white;font-family:Tahoma;font-size:14px" align="justify" >Horticultural crop production has surpassed the food grain crop production for the 
+		first time in the history of Indian Agriculture. The food industry of India is ranked among
+		the largest in the country and 5th largest in terms of production, consumption and export.Keeping the importance of organic farming, to increase use of organic manure utilization for crop production, there is an urgent need to produce and supply organic manure to the farming community.It is planned to extend the organic village site programme to hobli level.</p>
+		<p style="color:white;font-family:Tahoma;font-size:14px" align="justify" >
+		The objective of the scheme is to increase the agriculture production and productivity by adoption of Farm Mechanisation. The scheme is being implemented with five different components namely supply of Hi-tech Agriculture implements, and supply of newly designed agricultural implements. </p>
+		</div>
+		<br>
+		<table>
+			<tr>
+				<td class="galleryImg">
+					<img class="propic" src="img/i1.jpg" alt="">
+					<div class="text">  Colourful Veggies  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i2.jpg" alt="">
+					<div class="text">  Fresh Production  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i3.jpg" alt="">
+					<div class="text">  Fresh Seeds  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i4.jpg" alt="">
+					<div class="text">  Huge Farm  </div> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="galleryImg">
+					<img class="propic" src="img/i5.jpg" alt="">
+					<div class="text">  Fresh Green Broccolies  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i6.jpg" alt="">
+					<div class="text">  Fresh Fruit Juice  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i7.jpg" alt="">
+					<div class="text">  Huge Stock  </div> 
+				</td>
+				<td class="galleryImg">
+					<img class="propic" src="img/i8.jpg" alt="">
+					<div class="text">  Healthy environment  </div> 
+				</td>
+			</tr>
+		</table>
+ </div>
+
+ 
+ <!-- footer starts here-->
+ 
+ 	<!--  Footer -->
+					<div
+						style="width: 1070px; position: absolute; left: 258px; height: 50px; bottom: 1px; top: 747px;"
+						class="s7_footer s7" data-state=" " id="SITE_FOOTER">
+					
+						<div id="" class="s7centeredContent">
+							<div id="" class="s7bg"></div>
+							
+								<div
+									style="width: 111px; height: 27px; top: 11px; bottom:; left: 940px; right:; position: absolute;"
+									>
+									<div id="">
+										<div
+											style="width: 27px; height: 27px; margin-bottom: 0; margin-right: 5px; display: inline-block;"
+											
+											id=""
+											>
+											<a href="http://www.facebook.com/wix" target="_blank"
+												id="SITE_STRUCTURE_LinkBar_0component_items_0_49249link"
+												class="s8imageItemlink"
+												><div
+													id="SITE_STRUCTURE_LinkBar_0component_items_0_49249image"
+													style="width: 27px; height: 27px; position: absolute;"
+													class="s8imageItemimage" data-state="loaded"
+													>
+													<div
+														id="SITE_STRUCTURE_LinkBar_0component_items_0_49249imagepreloader"
+														class="s8imageItemimagepreloader"
+														></div>
+													<img alt=""
+														src="img/ed86bdfa6aecf88649d305e11d76ac33.png"
+														style="width: 27px; height: 27px; object-fit: cover;"
+														id="SITE_STRUCTURE_LinkBar_0component_items_0_49249imageimage"
+														class="s8imageItemimageimage"
+														
+														data-pin-nopin="true">
+												</div></a>
+										</div>
+										<div
+											style="width: 27px; height: 27px; margin-bottom: 0; margin-right: 5px; display: inline-block;"
+											class="s8imageItem"
+											id="SITE_STRUCTURE_LinkBar_0component_items_1_66855"
+											>
+											<a href="http://www.twitter.com/wix" target="_blank"
+												id="SITE_STRUCTURE_LinkBar_0component_items_1_66855link"
+												class="s8imageItemlink"
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.1.0"><div
+													id="SITE_STRUCTURE_LinkBar_0component_items_1_66855image"
+													style="width: 27px; height: 27px; position: absolute;"
+													class="s8imageItemimage" data-state="loaded"
+													data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.1.0.0">
+													<div
+														id="SITE_STRUCTURE_LinkBar_0component_items_1_66855imagepreloader"
+														class="s8imageItemimagepreloader"
+														data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.1.0.0.0"></div>
+													<img alt=""
+														src="img/c9d3494be883cc2bd520386fed30f296.png"
+														style="width: 27px; height: 27px; object-fit: cover;"
+														id="SITE_STRUCTURE_LinkBar_0component_items_1_66855imageimage"
+														class="s8imageItemimageimage"
+														>
+												</div></a>
+										</div>
+										<div
+											style="width: 27px; height: 27px; margin-bottom: 0; margin-right: 5px; display: inline-block;"
+											class="s8imageItem"
+											id="SITE_STRUCTURE_LinkBar_0component_items_2_88622"
+											data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.2">
+											<a href="http://plus.google.com/+Wix/posts" target="_blank"
+												id="SITE_STRUCTURE_LinkBar_0component_items_2_88622link"
+												class="s8imageItemlink"
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.2.0"><div
+													id="SITE_STRUCTURE_LinkBar_0component_items_2_88622image"
+													style="width: 27px; height: 27px; position: absolute;"
+													class="s8imageItemimage" data-state="loaded"
+													data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.2.0.0">
+													<div
+														id="SITE_STRUCTURE_LinkBar_0component_items_2_88622imagepreloader"
+														class="s8imageItemimagepreloader"
+														data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$SITE_STRUCTURE_LinkBar_0.0.2.0.0.0"></div>
+													<img alt=""
+														src="img/bdd213c264106d58468c92b64d9ef2fe.png"
+														style="width: 27px; height: 27px; object-fit: cover;"
+														id="SITE_STRUCTURE_LinkBar_0component_items_2_88622imageimage"
+														class="s8imageItemimageimage"
+														>
+												</div></a>
+										</div>
+									</div>
+								</div>
+								<div
+									style="top: 5px; left: 16px; width: 520px; position: absolute;"
+									class="s2" id="SITE_STRUCTURE_WRichText_1"
+									>
+									<p class="font_9">© 2016 by Agrizens Ventures</p>
+								</div>
+							</div>
+					</div>
+ 
+</body></html>
+
+<!-- Pop up window  Starts Here -->
+<div id="openModal" class="modalDialog">
+	<div>	
+		<a href="#close" title="Close" class="close">X</a>
+		<div class="from"><h>From</h></td><input type="text" id="f1"></div>
+		<div class="sub"><h>Subject</h><input type="text" id="f2"></div>
+		<div class="area"><textarea rows="6" cols="40" placeholder="Enter your views"></textarea></div>
+		<div class="cancel"><input type="button" value="Cancel"/></div>
+		<div class="send"><input type="button" value="Send"/></div>	
+	</div>
+</div>
+<!-- Pop Up Window Ends Here -->

@@ -1,0 +1,176 @@
+
+/* Seeting top Panel */
+
+
+#leftPanel {
+     position: fixed;  
+    top: 10%;
+    left: 0;
+    width: 18.5%;
+   
+    /*  z-index:99;   */
+}
+#overlayDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+div.page {
+	
+	width:100%;
+	height: 400%;
+	background: white;
+	
+}
+
+/* Setting up background Image */
+
+div.setBgImage 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 730px; 
+	width: 100%;
+	background-image: url("bgImg.jpg"); 
+	background-size: cover; 
+	padding-top:70px;
+/* 	background-repeat: no-repeat; */
+	
+}
+
+div.slashc-sliding-menu 
+{ 
+	padding-top: 50px;
+	background: #171717;
+	overflow: hidden;
+}
+
+div.slashc-sliding-menu,
+div.slashc-sliding-menu h1,
+div.slashc-sliding-menu ul,
+div.slashc-sliding-menu li,
+div.slashc-sliding-menu li a,
+div.slashc-sliding-menu li span,
+div.slashc-sliding-menu p
+{
+	display: block;
+	font: 14px Tahoma,Arial,sans-serif; /* set font here */
+	width: 250px; /* set width here */
+	list-style: none;
+	padding-top: 50px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	position: relative;
+	
+}
+div.slashc-sliding-menu h1,
+div.slashc-sliding-menu li,
+div.slashc-sliding-menu li a,
+div.slashc-sliding-menu li a span,
+div.slashc-sliding-menu p
+{
+	height: 50px;	
+	line-height: 50px;
+	text-indent: 15px;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+div.slashc-sliding-menu h1
+{
+	/* background-color: #069; */
+	/* background-image: url(../img/header_bg.jpg); */
+	
+	color: #fff;
+	font-weight: bold;
+}
+div.slashc-sliding-menu li
+{
+	/* background-color: #eee; */
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	
+}
+div.slashc-sliding-menu li ul
+{
+	position: absolute;
+}
+div.slashc-sliding-menu li,
+div.slashc-sliding-menu li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+div.slashc-sliding-menu li a span
+{
+	font-weight: bold;
+	background: url("arrow-right.png") no-repeat 256px 19px;
+}
+div.slashc-sliding-menu li a:hover
+{
+	background-color: #003300;
+	
+	color: #fff;
+}
+div.slashc-sliding-menu li a:hover span
+{
+	background-position: 256px -31px;
+}
+div.slashc-sliding-menu p
+{
+	background-color: #222;
+	
+	color: #555;
+	font-size: 12px;
+}
+div.slashc-sliding-menu a.slashc-sliding-menu-home,
+div.slashc-sliding-menu a.slashc-sliding-menu-back
+{
+	text-indent: -10000px;
+	display: block;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+div.slashc-sliding-menu a.slashc-sliding-menu-home
+{
+	width: 49px;
+	opacity: 0.6; 
+	background: url("house.png") no-repeat 15px 13px;
+}
+div.slashc-sliding-menu a.slashc-sliding-menu-home:hover
+{
+	opacity: 1; 
+}
+div.slashc-sliding-menu a.slashc-sliding-menu-back
+{
+	width: 52px;
+	background: url("arrow-left2.png") no-repeat 19px 12px;
+	opacity: 0.6; 
+}
+div.slashc-sliding-menu a.slashc-sliding-menu-back:hover
+{
+		opacity: 1; 
+}
+div.slashc-sliding-menu a
+{
+	outline: none;
+}
+.panel-transparent {
+        background: none;
+    }
+.panel-transparent .panel-heading{
+        background: rgba(0, 0, 0, 0.85)!important;
+    }
+
+    .panel-transparent .panel-body{
+         background: rgba(0, 0, 0, 0.85)!important; 
+    }
