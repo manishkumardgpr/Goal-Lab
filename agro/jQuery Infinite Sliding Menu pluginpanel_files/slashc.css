@@ -93,8 +93,9 @@ div.slashc-sliding-menu h1
 div.slashc-sliding-menu li
 {
 	/* background-color: #eee; */
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(255,181,2, 0.75);
 	color: #fff;
+	border-bottom: 1px solid #05fff;
 	
 }
 div.slashc-sliding-menu li ul
@@ -114,9 +115,10 @@ div.slashc-sliding-menu li a span
 }
 div.slashc-sliding-menu li a:hover
 {
-	background-color: #003300;
-	
-	color: #fff;
+	background-color: #FF8001;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	color: #000;
 }
 div.slashc-sliding-menu li a:hover span
 {
