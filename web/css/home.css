@@ -1,0 +1,102 @@
+.Bgimg {
+	position:absolute;
+	height:800px; 
+	width:100%;
+	margin-left:-10px;
+	margin-top:-5px;
+}
+#tablediv {
+	box-shadow: 5px 5px 5px #888888;
+
+}
+#Goal {
+	box-shadow: 3px 3px 3px #888888;
+}  
+#home1 {
+	box-shadow: 3px 3px 3px #888888;
+}
+#left1 {
+	box-shadow: 5px 5px 5px #888888;
+
+}
+#left2 {
+	box-shadow: 5px 5px 5px #888888; 
+
+}
+#left3 {
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+	font-family:verdana;
+	font-size:12px;
+}
+#min {
+	padding-top:4px;
+	margin-right:10px;
+}
+#text {
+	border-radius:5px;
+}
+t1 {
+	position:absolute;
+	left:79%;
+	padding-top:5px;
+}
+t2 {
+	position:absolute;
+	left:93%;
+	padding-top:5px;
+}
+#tot {
+		font-size:28px;	
+		border-right:1px solid rgb(153,204,255);
+}
+#tot1 {
+	font-size:28px;
+	}
+#tab {
+	border-bottom:2px solid rgb(153,204,255);
+}
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:350px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+
+}
+#table-wrapper table * {
+  width:113px;
+  height:25px;
+  border-bottom:2px solid rgb(153,204,255);
+  border-left:1px solid rgb(153,204,255);
+  border-top:2px solid rgb(153,204,255);
+  color:black;
+}
+#table-wrapper table thead .text {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:2px solid black;
+}
+th {
+	background:rgb(153,204,255);
+}
+#hp {
+	background:rgb(234,234,230);
+	height:30px;
+	border-bottom:1px solid #000;
+	padding-top:10px;
+	padding-left:5px;
+	box-shadow: 3px 3px #888888;
+}
